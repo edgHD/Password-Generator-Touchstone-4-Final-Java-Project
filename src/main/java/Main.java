@@ -1,5 +1,5 @@
 /*
-  Made by Edgar Dolz
+  Made by edgHD
   Touchstone 4: Final Java Project
 */
 
@@ -20,7 +20,7 @@ public class Main {
         System.out.println();
 
         // Pause for 3 seconds to display the banner
-       Timer.sleep(3000);
+        Timer.sleep(3000);
 
         // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);
@@ -58,7 +58,8 @@ public class Main {
         }
 
         // Create an instance of PasswordGenerator with user inputs
-        PasswordGenerator generator = new PasswordGenerator(lengthInput, upperCaseInput, numbersInput, specialCharactersInput);
+        PasswordGenerator generator = new PasswordGenerator(lengthInput, upperCaseInput, numbersInput,
+                specialCharactersInput);
 
         // Generate the password using the specified parameters
         String newPassword = generator.generatePassword();
